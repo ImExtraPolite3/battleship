@@ -1,2 +1,7 @@
 import './style.css';
-import { Ship } from './ships.js';
+import { check } from './createShips';
+import { player_gameboard } from './gameboard';
+
+console.log(check());
+
+player_gameboard();
