@@ -1,4 +1,14 @@
-.player-square {
+#boards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+}
+
+.player-squares,
+.computer-squares {
   border: solid;
   width: 20px;
   padding: 20px 10px;

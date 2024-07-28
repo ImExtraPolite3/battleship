@@ -1,7 +1,5 @@
 import './style.css';
-import { check } from './createShips';
-import { player_gameboard } from './gameboard';
-
-console.log(check());
+import { player_gameboard, computer_gamesboard } from './gameboard';
 
 player_gameboard();
+computer_gamesboard();
