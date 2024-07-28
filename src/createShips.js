@@ -26,6 +26,4 @@ function createShips() {
   };
 }
 
-function check() {}
-
 export { check };

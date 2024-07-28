@@ -1,29 +1,29 @@
 function player_gameboard_rows(num) {
-  const createRow = document.createElement('div');
-  createRow.className = `row player-row${num}`;
+  const createPlayerRows = document.createElement('div');
+  createPlayerRows.className = `row player-row${num}`;
 
-  return createRow;
+  return createPlayerRows;
 }
 
 function computer_gameboard_rows(num) {
-  const createRow = document.createElement('div');
-  createRow.className = `row computer-row${num}`;
+  const createComputerRow = document.createElement('div');
+  createComputerRow.className = `row computer-row${num}`;
 
-  return createRow;
+  return createComputerRow;
 }
 
 function player_gameboard_square() {
-  const createSquare = document.createElement('div');
-  createSquare.className = 'player-squares';
+  const createPlayerSquare = document.createElement('div');
+  createPlayerSquare.className = 'player-squares';
 
-  return createSquare;
+  return createPlayerSquare;
 }
 
 function computer_gameboard_square() {
-  const createSquare = document.createElement('div');
-  createSquare.className = 'computer-squares';
+  const createComputerSquare = document.createElement('div');
+  createComputerSquare.className = 'computer-squares';
 
-  return createSquare;
+  return createComputerSquare;
 }
 
 function player_gameboard() {
